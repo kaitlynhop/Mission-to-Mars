@@ -59,7 +59,7 @@ def mars_news(browser):
     return news_title, news_p
 
 # ### Featured Images
-def featured_image(browswer):
+def featured_image(browser):
     # Visit URL
     url = 'https://spaceimages-mars.com'
     browser.visit(url)
